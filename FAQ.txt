@@ -1,0 +1,31 @@
+1. Perbedaan .Core, .EntityFrameworkCore
+.Core itu untuk declare entity
+.EntityFrameworkCore untuk migration
+
+2. Apa gunanya DbContext ?
+
+
+3. Maksud Interface pada app service
+Sebagai rule ketika km menggunakan classs tertentu
+conthohnya menentukan parameter pada sautu function
+ 
+4. Fungsi DTO ?
+Menentukan property model mana saja yang ingin di output
+DTO harus letaknya di.Core
+
+5. Object Mapper ?
+untuk mapping data model ke dto
+
+6. mengapa menggunakan localization tidak direct textt aja ?
+change bahasa sehingga tidak perlu buat view lain jika beda bahasa
+
+Part II 
+
+7.guid itu apa ?
+Hash id sejenis hash untuk password
+
+8.fungsi Threading<Task>
+Magic 
+
+9.Repository
+untuk CRUD model
